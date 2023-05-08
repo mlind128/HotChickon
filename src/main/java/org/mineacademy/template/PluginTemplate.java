@@ -16,9 +16,9 @@ public final class PluginTemplate extends SimplePlugin {
 
 
 	/**
-	 * why an apple
+	 * 1 second is 20 ticks
 	 */
-	int apple = 5;
+	int sec = 20;
 
 	/**
 	 * Automatically perform login ONCE when the plugin starts.
@@ -29,7 +29,7 @@ public final class PluginTemplate extends SimplePlugin {
 
 		String hello = "hello welcome";
 
-		System.out.println("Hello Wellcome");
+		System.out.println("Hello wellcome");
 
 
 	}
@@ -50,7 +50,11 @@ public final class PluginTemplate extends SimplePlugin {
 
 
 		if (event.getRightClicked().getType() == EntityType.CHICKEN)
-			event.getRightClicked().setFireTicks(80);
+			event.getRightClicked().setFireTicks((sec * 4));
+
+		else if (event.getRightClicked().getType() == EntityType.PIG)
+			event.getRightClicked().setFireTicks((sec * 10));
+
 		//	event.getRightClicked().getWorld().createExplosion(event.getRightClicked().getLocation(), 5);
 
 
