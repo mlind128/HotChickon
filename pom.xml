@@ -24,7 +24,7 @@
         <author>MatthewSL</author>
 
         <!-- Change to the full path where your main plugin class is located. -->
-        <main.class>org.mineacademy.template.PluginTemplate</main.class>
+        <main.class>org.mineacademy.template.HotChickon</main.class>
 
         <!-- Change the Java version this plugin is built on.
 
@@ -38,7 +38,7 @@
 
         <!-- Change to the latest version from https://github.com/kangarko/Foundation/releases
              or change to "LATEST" if you downloaded Foundation to your disk and compiled it. -->
-        <foundation.version>6.3.4</foundation.version>
+        <foundation.version>6.4.7</foundation.version>
 
         <!-- Leave on "com.github.kangarko" if you use Foundation from GitHub like most people,
              or change to "org.mineacademy" if you downloaded our library to your disk and compiled it. -->

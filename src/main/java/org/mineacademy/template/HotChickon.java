@@ -1,8 +1,5 @@
 package org.mineacademy.template;
 
-import org.bukkit.entity.EntityType;
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.player.PlayerInteractEntityEvent;
 import org.mineacademy.fo.plugin.SimplePlugin;
 
 /**
@@ -12,8 +9,7 @@ import org.mineacademy.fo.plugin.SimplePlugin;
  * <p>
  * It uses Foundation for fast and efficient development process.
  */
-public final class PluginTemplate extends SimplePlugin {
-
+public final class HotChickon extends SimplePlugin {
 
 	/**
 	 * 1 second is 20 ticks
@@ -31,7 +27,6 @@ public final class PluginTemplate extends SimplePlugin {
 
 		System.out.println("Hello wellcome");
 
-
 	}
 
 
@@ -45,20 +40,16 @@ public final class PluginTemplate extends SimplePlugin {
 	 *
 	 * @param event
 	 */
-	@EventHandler
+	/*@EventHandler
 	public void onRightClick(PlayerInteractEntityEvent event) {
 
 
 		if (event.getRightClicked().getType() == EntityType.CHICKEN)
 			event.getRightClicked().setFireTicks((sec * 4));
-
-		else if (event.getRightClicked().getType() == EntityType.PIG)
-			event.getRightClicked().setFireTicks((sec * 10));
-
+		
 		//	event.getRightClicked().getWorld().createExplosion(event.getRightClicked().getLocation(), 5);
 
 
-	}
-
+	} */
 
 }
